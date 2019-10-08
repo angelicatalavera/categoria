@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu2"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/pop"
+        />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="El mismo nombre lo dices, el pop es música popular. Es un género musical que también engloba una gran cantidad de estilos diferentes y se puede fusionar con muchas influencias para conseguir nuevos estilos bastante refrescantes e innovadores.
+
+La estructura de las composiciones es la que clasifica este género. Es eminentemente vocal y pensada para el gran público de la sociedad de masas."/>
+
+    <Button
+        android:id="@+id/btndos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU PRINCIPAL"
+        android:backgroundTint="@color/colorAccent"
+        />
+
+</LinearLayout>

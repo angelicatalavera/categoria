@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".menu3"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/img3"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_gravity="center"
+        android:background="@drawable/reggaeton"
+        />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Este género es relativamente nuevo, fue internacionalizado por Puerto Rico y suele ser bastante bailable y tener letras cargadas de picardía juvenil.
+
+La música es un aspecto maravilloso de la humanidad puesto que es uno de los pocos lenguajes que todos podemos comprender, y si bien a algunas personas les gustan algunos tipos de música más que otros, hay una inmensa variedad para escoger precisamente lo que más te agrade, no hay por qué conformarse con uno solo."></TextView>
+    <Button
+        android:id="@+id/btntres"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="MENU PRINCIPAL"
+        android:backgroundTint="@color/colorAccent"
+        />
+
+</LinearLayout>
